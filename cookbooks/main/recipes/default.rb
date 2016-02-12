@@ -176,3 +176,5 @@
 #uncomment to include the motd customization related to the environment
 #include_recipe "env_motd"
 
+#uncomment to include nginx_cors recipe
+include_recipe "nginx_cors"
